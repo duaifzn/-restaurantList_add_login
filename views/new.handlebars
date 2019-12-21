@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-10 mx-auto">
+      <form action="/restaurants/new" method="POST">
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-utensils pr-2"></i>
+            名稱：
+          </span>
+          <input type="text" class="form-control" name="name" placeholder="請輸入..">
+        </div>
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-utensils pr-2"></i>
+            類別：
+          </span>
+          <input type="text" class="form-control" name="category" placeholder="請輸入..">
+        </div>
+
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-map-marker-alt pr-2"></i>
+            地址：
+          </span>
+          <input type="text" class="form-control" name="location" placeholder="請輸入..">
+        </div>
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-map-marker-alt pr-2"></i>
+            google地圖：
+          </span>
+          <input type="text" class="form-control" name="google_map" placeholder="請輸入..">
+        </div>
+
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-mobile-alt pr-2"></i>
+            電話：
+          </span>
+          <input type="text" class="form-control" name="phone" placeholder="請輸入..">
+        </div>
+
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-mobile-alt pr-2"></i>
+            敘述：
+          </span>
+          <textarea class="form-control" name="description" id="validationTextarea" placeholder="請輸入.."></textarea>
+        </div>
+
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-mobile-alt pr-2"></i>
+            圖片：
+          </span>
+          <input type="text" name="image" class="form-control" placeholder="請輸入..">
+        </div>
+        <div class="input-group mb-1">
+          <span class="text-secondary">
+            <i class="fas fa-mobile-alt pr-2"></i>
+            評分：
+          </span>
+          <input type="text" name="rating" class="form-control" placeholder="請輸入..">
+        </div>
+        <div>
+          <button type="submit">新增</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
