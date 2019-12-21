@@ -3,16 +3,12 @@
 
 ## 功能
 從資料庫顯示各個餐廳的介紹，並且有搜尋餐廳功能
+加入登入功能
 
 ## 使用
 此專案需要安裝Express.js
-執行專案使用指令 `npm run dev` or `npm run start`
+執行專案使用指令 `nodemon app.js`
 
-
-| Command | Command Description |
-| ------:| -----------:|
-| start  | node app.js |
-| dev | nodemon app.js |
 
 ## 作者
 duaifzn
